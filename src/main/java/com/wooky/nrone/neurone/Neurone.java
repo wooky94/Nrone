@@ -1,5 +1,6 @@
 package com.wooky.nrone.neurone;
 
+import java.util.HashMap;
 import java.util.Map;
 
 
@@ -7,7 +8,7 @@ abstract class Neurone {
   
   protected double currentValue;  // Valeur actuel du neurone
   protected Couche<? extends Neurone> coucheInferieure; // Couche inférieure du neurone
-  protected Map<Neurone,Double> facteurs; // Neurones de la couche inférieure et Facteurs associés
+  protected Map<Neurone,Double> facteurs = new HashMap<>(); // Neurones de la couche inférieure et Facteurs associés
   
   /** @return la valeur actuel du neurone */
   public double getCurrentValue(){
