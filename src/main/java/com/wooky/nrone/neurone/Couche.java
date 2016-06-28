@@ -26,7 +26,9 @@ public class Couche<T> {
     return neurones.size();
   }
   
+  /** @return la couche connecte a ce neurone */
   public Set<T> getNeurones(){
     return lockedNeurones;
   }
 }
+
