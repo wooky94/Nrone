@@ -16,7 +16,7 @@ abstract class Neurone {
 	}
   
   /** Calcul la valeur du neurone en fonction de la valeur et des pondérations
-	 * des neurones de la couche inférieure */
+	 * des neurones de la couche inférieure  */
   public abstract void CalculerValeur();
   
   public void setCoucheInferieure(Couche<? extends Neurone> couche){
