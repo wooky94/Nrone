@@ -28,9 +28,9 @@
       <artifactId>maven-jar-plugin</artifactId>
       <version>2.4</version>
       <configuration>
-            <source>1.7</source>
-             <target>1.7</target>
-           <archive>
+		<source>1.8</source>
+		<target>1.8</target>
+		<archive>
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>NRONE/</classpathPrefix>
