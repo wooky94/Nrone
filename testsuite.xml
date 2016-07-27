@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestAll">
+
+	<test name="full">
+ 	
+ 		<packages>
+      		<package name="com.wooky.nrone.neurone.*">      		
+      		</package>
+    	</packages>
+	</test>
+
+</suite>
