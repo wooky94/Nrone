@@ -21,14 +21,16 @@ public class SimpleNeurone {
   public void calculEntreeUnique() throws InstantiationException, IllegalAccessException {
 	  Couche<NeuroneSimpleSomme> couche1 = new Couche<NeuroneSimpleSomme>(NeuroneSimpleSomme.class,10);
 	  for(Neurone n: couche1.getNeurones())
-       n.initEntree(3.0);
+       n.initEntree(2.0);
 	  NeuroneSimpleSomme N2 = new NeuroneSimpleSomme();
 	  N2.setCoucheInferieure(couche1);
 
 	  
 	  N2.CalculerValeur();
 	  
-	  assert(N2.getCurrentValue()>0.9999);
+	  System.out.println(N2.getCurrentValue());
+	  assert(N2.getCurrentValue()>1.9999);
+	  assert(N2.getCurrentValue()<1.00001);
   }
 
 }

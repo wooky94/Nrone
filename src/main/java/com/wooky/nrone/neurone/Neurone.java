@@ -35,7 +35,10 @@ abstract class Neurone {
 			facteurs.put(n,ponderation.doubleValue());
 	}
   
-  /** intialise le neurone avec une valeur. Utile pour les neurones de rétine */
+  /**
+   * intialise le neurone avec une valeur.
+   * @param value : une valeur 
+   */
   public void initEntree(double value){
     currentValue = value;
   }

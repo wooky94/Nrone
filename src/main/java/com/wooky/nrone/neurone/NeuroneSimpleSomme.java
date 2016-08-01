@@ -15,9 +15,9 @@ public class NeuroneSimpleSomme extends Neurone {
 
 	/** Normalise la valeur pour qu'elle soit contenue dans [0,1] */
 	private void normalise(){
-		if (currentValue > 1.0)
+		if (currentValue > 0.0)
 			currentValue = 1.0;
-		else if (currentValue < 0.0)
+		else if (currentValue <= 0.0)
 			currentValue = 0.0;  
 	}
 
