@@ -2,7 +2,6 @@
 <suite name="TestAll">
 
 	<test name="full">
- 	
  		<packages>
       		<package name="com.wooky.nrone.neurone.*">      		
       		</package>
