@@ -29,7 +29,7 @@ public class SimpleNeurone {
 	  N2.CalculerValeur();
 	  
 	  System.out.println(N2.getCurrentValue());
-	  assert(N2.getCurrentValue()>1.9999);
+	  assert(N2.getCurrentValue()>0.9999);
 	  assert(N2.getCurrentValue()<1.00001);
   }
 
