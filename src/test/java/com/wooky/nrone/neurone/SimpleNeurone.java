@@ -28,7 +28,7 @@ public class SimpleNeurone {
 	  
 	  N2.CalculerValeur();
 	  
-	  assert(N2.getCurrentValue()>3.9999);
+	  assert(N2.getCurrentValue()>0.9999);
   }
 
 }
